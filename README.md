@@ -14,6 +14,7 @@ Year-wise movie release trends
 
 Genre-specific performance using joins and aggregations
 
+
 ✅ Tools & Technologies Used:
 Python: Data extraction, cleaning, transformation
 
@@ -27,15 +28,17 @@ SQLite: Lightweight local database
 
 SQL: Data analysis using joins, grouping, filtering, and window functions
 
-📊 Data Model:
-movies: Stores core movie information (title, release date, rating, etc.)
 
+
+📊 Data Model:
+
+movies: Stores core movie information (title, release date, rating, etc.)
 movie_genres: Many-to-many bridge table mapping movies to genres
 
 
 
 📘 README Overview (Up to SQL Queries)
-🎯 Project Objective
+🎯 Project Objective 
 To build an end-to-end data engineering pipeline that:
 
 Extracts movie data from the TMDB API
